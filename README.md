@@ -1,35 +1,58 @@
-# Prometheus — Universal Engineering & Intelligence Interface
+# Ketchum’s Prometheus — Unified Superintelligence Infrastructure
 
-**Status:** Initial implementation; experimental, bounded adapters; not yet qualified for production.
+**Full identity:** Ketchum’s Prometheus Unified Superintelligence (KPUS)  
+**Classification:** Federated Human-Governed Superintelligence Infrastructure  
 
-Prometheus is being built as a universal engineering and intelligence interface: a shared representation layer between human intent and technical domains. The interface accepts natural-language requests and supported artifacts, produces a provenance-preserving intermediate representation, and translates that representation into bounded technical specifications.
+> Intelligence without self-sovereignty. Autonomy without unrestricted authority. Superintelligence under human governance.
 
-## Core pipeline
+## What this repository is
 
-`Human language / artifact → parse & inspect → Universal Representation → validate → target adapter → output + evidence`
+This is the **integration and architecture home** for Prometheus and the broader unified ecosystem.
 
-Reverse reconstruction follows the same path in reverse. Unsupported or ambiguous content is preserved as unresolved rather than guessed.
+It does **not** absorb, rewrite, or replace the independent systems you have already built.  
+It records architecture, governance, capability registry, integration blueprint, and attributed references so that independent systems can be coordinated under one roof while remaining independent.
 
-## Initial capabilities
-- English and Spanish input handling for a documented starter vocabulary and request patterns.
-- Structured representation of goals, entities, relationships, constraints, operations, assumptions, and unresolved statements.
-- Forward specification adapters for JSON, software architecture, algorithm/pseudocode, mathematical expressions, and Python-oriented implementation plans.
-- Reverse inspection of JSON, Python source, mathematical expressions, and architecture text.
-- Provenance, source digests, confidence boundaries, and explicit evidence states.
-- Integration with the Seed Bank semantic relationship builder as an attributed, unchanged source snapshot.
+## What this repository is not
 
-## Important limits
-"Universal" describes the extensible architecture and intended coverage, not a claim that the current implementation understands every language, format, scientific domain, or system. Adapters are explicit and versioned. Generated implementation plans are not executed automatically. Mathematical or semantic correctness, security, physical feasibility, and human intent require appropriate independent validation.
+- Not a claim that all systems are already live-connected.
+- Not a production runtime of the full superintelligence ecosystem.
+- Not a modification of any original KCN, MANIFEX, Seed Bank, or clone repository.
+- Not a grant of authority to any software component.
 
-## Governance
-- Human authority remains external to the software.
-- Capability is not evidence, qualification, authority, or ratification.
-- No generated plan can authorize its own execution.
-- Unknowns remain visible as `UNRESOLVED` / `NOT_MEASURED`.
-- Source snapshots are preserved; changes to this repository are additive.
+## Current contents
 
-## Run
-```bash
-python -m unittest discover -s tests -v
-python -m prometheus_interface.cli --text "Build a service that validates incoming records" --target architecture
-```
+| Path | Purpose |
+|------|---------|
+| `README.md` | This file — identity and entry point |
+| `INTEGRATION_ARCHITECTURE.md` | Core architecture, layout, pipeline, milestones |
+| `CAPABILITY_REGISTRY.md` | System and capability inventory with honest status |
+| `INTEGRATION_BLUEPRINT.md` | Phased reconstruction and connection plan |
+| `GOVERNANCE.md` | Constitutional hierarchy and Human Authority binding |
+| `docs/` | Supporting doctrine and process notes |
+| `registry/` | Machine-readable registry snapshots |
+| `snapshots/` | Attributed, read-only references to external material (no source mutation) |
+
+## Relationship to original work
+
+| Original work | Relationship |
+|---------------|--------------|
+| Seed Bank (`Evank253/Seed-bank-`) | Read-only reference and investigation subject source |
+| MANIFEX and related | Independent engineering systems — external connectors only |
+| KCN Super Cognitive Ecosystem | Independent governance/intelligence system — external connectors only |
+| MANIFEX MILLENNIUM NEW BUSINESS | Operational business scaffold — remains separate |
+| THE UNIFIED MANIFEX MILLENNIUM FULL BUSINESS FINAL | Architectural continuity repository — remains separate |
+| Isolated clones (kcn-clone-*) | Isolated investigation/development surfaces — remain isolated |
+
+## Next concrete steps (human-authorized)
+
+1. Maintain this repository as the single integration and architecture roof.
+2. Keep all original repositories unmodified.
+3. Use Prometheus (Universal Engineering & Intelligence Interface) as the first investigation subject under the nine-step pipeline when Preflight is ready.
+4. Build external adapters and a verified capability registry before any execution paths.
+5. Enforce Human Authority, Primordial Rule, and evidence discipline at every boundary.
+
+## Status
+
+**Architecture and registry established.**  
+**Live multi-system connections: not claimed.**  
+**Original files: untouched.**

@@ -1,0 +1,99 @@
+{
+  "registry_version": "0.1.0",
+  "generated": "2026-11-09",
+  "mode": "discovery_only",
+  "authority": "external_human",
+  "systems": [
+    {
+      "system_id": "PROMETHEUS-UEII",
+      "name": "Prometheus Universal Engineering & Intelligence Interface",
+      "role": "translation_reconstruction_specification",
+      "source_repo": "Evank253/Seed-bank-",
+      "source_path": "017-UNIVERSAL-ENGINEERING-INTELLIGENCE-INTERFACE",
+      "integration_status": "SNAPSHOT_REFERENCED",
+      "permission_scope": "human_authorized_investigation_only",
+      "verification_status": "NOT_MEASURED"
+    },
+    {
+      "system_id": "SEED-BANK",
+      "name": "Seed Bank",
+      "role": "research_archive_lineage",
+      "source_repo": "Evank253/Seed-bank-",
+      "integration_status": "READ_ONLY_REFERENCE",
+      "permission_scope": "read_only",
+      "verification_status": "ARCHIVE"
+    },
+    {
+      "system_id": "MANIFEX",
+      "name": "MANIFEX Engineering Intelligence",
+      "role": "engineering_execution",
+      "source_repo": "Evank253/MANIFEX",
+      "integration_status": "NOT_CONNECTED",
+      "permission_scope": "human_authorized",
+      "verification_status": "NOT_MEASURED"
+    },
+    {
+      "system_id": "KCN-CORE",
+      "name": "KCN Super Cognitive Human Governed Intelligence Ecosystem",
+      "role": "governance_intelligence",
+      "source_repo": "Evank253/KCN-SUPER-COGNITIVE-HUMAN-GOVERNED-INTELLIGENCE-ECOSYSTEM-",
+      "integration_status": "NOT_CONNECTED",
+      "permission_scope": "human_authorized",
+      "verification_status": "NOT_MEASURED"
+    },
+    {
+      "system_id": "NEW-BUSINESS",
+      "name": "MANIFEX MILLENNIUM NEW BUSINESS",
+      "role": "business_application_scaffold",
+      "source_repo": "Evank253/MANIFEX-MILLENNIUM-NEW-BUSINESS",
+      "integration_status": "NOT_CONNECTED",
+      "permission_scope": "human_authorized",
+      "verification_status": "SCAFFOLD"
+    },
+    {
+      "system_id": "BUSINESS-FINAL",
+      "name": "THE UNIFIED MANIFEX MILLENNIUM FULL BUSINESS FINAL",
+      "role": "architectural_continuity",
+      "source_repo": "Evank253/The-unified-Manifex-millennium-full-business-final-",
+      "integration_status": "READ_ONLY_REFERENCE",
+      "permission_scope": "read_only",
+      "verification_status": "RECOVERY"
+    },
+    {
+      "system_id": "KCN-LINK",
+      "name": "KCN Link Bridge",
+      "role": "interoperability",
+      "source_repo": "Evank253/kcn-clone-bridge",
+      "integration_status": "NOT_CONNECTED",
+      "permission_scope": "human_authorized",
+      "verification_status": "NOT_MEASURED"
+    },
+    {
+      "system_id": "PREFLIGHT",
+      "name": "KCN Preflight",
+      "role": "assurance_gate",
+      "source_repo": "Evank253/kcn-preflight",
+      "integration_status": "NOT_CONNECTED",
+      "permission_scope": "human_authorized",
+      "verification_status": "NOT_MEASURED"
+    },
+    {
+      "system_id": "CONTROLLER",
+      "name": "KCN Clone Controller",
+      "role": "orchestration",
+      "source_repo": "Evank253/kcn-clone-controller",
+      "integration_status": "NOT_CONNECTED",
+      "permission_scope": "human_authorized",
+      "verification_status": "ISOLATED_CLONE"
+    },
+    {
+      "system_id": "PRIMORDIAL-RULE",
+      "name": "Primordial Rule Root",
+      "role": "foundational_restrictions",
+      "source_repo": "Evank253/kcn-clone-primordial-rule",
+      "integration_status": "NOT_CONNECTED",
+      "permission_scope": "immutable_reference",
+      "verification_status": "ISOLATED_CLONE"
+    }
+  ]
+}
