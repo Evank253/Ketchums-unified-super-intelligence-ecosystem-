@@ -42,7 +42,7 @@ class PlanResult:
     selected: tuple[str, ...]
     blocked: tuple[dict[str, str], ...]
 
-    def to_dict(self) -> dictdict[str, Any]:
+    def to_dict(self) -> dict[str, Any]:
         return {
             "task_id": self.task_id,
             "selected_capabilities": list(self.selected),
