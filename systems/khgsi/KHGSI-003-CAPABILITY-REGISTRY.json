@@ -1,0 +1,196 @@
+{
+  "schema": "KHGSI-CAPABILITY-REGISTRY-1",
+  "registry_version": "0.1.0",
+  "snapshot_source": "Evank253/Seed-bank- branch Python-3 at commit a9cf53d19c31bcdc38c7c45a89c374fee8664d70",
+  "snapshot_scope": "Evidence visible in the Seed Bank tree and documentation inspected for this build. Not a complete inventory of external repositories.",
+  "local_clone_path": "systems/khgsi",
+  "capabilities": [
+    {
+      "capability_id": "URSIE-INTAKE-001",
+      "name": "Registration-first artifact intake and lineage foundation",
+      "system_id": "URSIE",
+      "status": "IMPLEMENTED_EXPERIMENTAL_NOT_QUALIFIED",
+      "domains": ["artifact_intake", "preservation", "sha256", "append_only_lineage"],
+      "invocation": "PYTHONPATH=systems/khgsi python -m ursie",
+      "source_path": "018-URSIE-UNIVERSAL-REVERSE-SEMANTIC-INTELLIGENCE-ENGINE/README.md",
+      "tests": "TEST_FILE_PRESENT_NOT_EXECUTED_IN_THIS_BUILD",
+      "limitations": ["Single-writer-process JSONL reference ledger.", "Tamper-evident, not tamper-proof.", "General translation/reconstruction adapters not implemented.", "Production multi-writer storage and security qualification not implemented."]
+    },
+    {
+      "capability_id": "PROMETHEUS-INTERPRET-001",
+      "name": "Bounded request interpretation and representation translation",
+      "system_id": "PROMETHEUS-UEII",
+      "status": "IMPLEMENTED_EXPERIMENTAL_NOT_QUALIFIED",
+      "domains": ["natural_language", "intermediate_representation", "architecture_specification", "reverse_inspection"],
+      "invocation": "python 017-UNIVERSAL-ENGINEERING-INTELLIGENCE-INTERFACE/prometheus_interface.py --help",
+      "source_path": "017-UNIVERSAL-ENGINEERING-INTELLIGENCE-INTERFACE/README.md",
+      "tests": "TEST_FILE_PRESENT_NOT_EXECUTED_IN_THIS_BUILD",
+      "limitations": ["English/Spanish starter patterns, not unrestricted translation.", "Bounded inspectors; no general theorem proving or scientific validation.", "Generated code is not executed."]
+    },
+    {
+      "capability_id": "GENOME-INVESTIGATION-001",
+      "name": "Deterministic seed registry and relationship investigation",
+      "system_id": "PRIMORDIAL-GENOME-ENGINE",
+      "status": "LIMITED_IMPLEMENTED",
+      "domains": ["seed_registry", "explicit_relationships", "lineage_graph", "composition_planning"],
+      "invocation": "python 013-PRIMORDIAL-SEED-DERIVATIVES/ENGINE/genome_engine.py --help",
+      "source_path": "013-PRIMORDIAL-SEED-DERIVATIVES/ENGINE/README.md",
+      "tests": "TEST_FILE_PRESENT_NOT_EXECUTED_IN_THIS_BUILD",
+      "limitations": ["Does not infer ancestry from similarity.", "Does not execute seed capabilities or recursive compositions.", "Does not perform general semantic scientific reasoning."]
+    },
+    {
+      "capability_id": "SEMANTIC-BUILDER-001",
+      "name": "Conservative semantic relationship extraction and typed document construction",
+      "system_id": "SEMANTIC-BIDIRECTIONAL-BUILDER",
+      "status": "LIMITED_IMPLEMENTED",
+      "domains": ["explicit_semantic_relations", "typed_documents", "numerical_invariants", "source_hashing"],
+      "invocation": "Python API in 013-PRIMORDIAL-SEED-DERIVATIVES/ENGINE/semantic_bidirectional_builder.py",
+      "source_path": "013-PRIMORDIAL-SEED-DERIVATIVES/ENGINE/semantic_bidirectional_builder.py",
+      "tests": "TEST_FILE_PRESENT_NOT_EXECUTED_IN_THIS_BUILD",
+      "limitations": ["Small documented pattern set only.", "No unrestricted language understanding or intent recovery.", "Similarity is not lineage evidence."]
+    },
+    {
+      "capability_id": "KAX-FIRST-CLASS-ENGINE-001",
+      "name": "KAX first-class identity and composition engine",
+      "system_id": "KAX-ENGINE",
+      "status": "IMPLEMENTED_EXPERIMENTAL_NOT_QUALIFIED",
+      "domains": ["identity_catalog", "composition"],
+      "invocation": null,
+      "source_path": "017-KAX-FIRST-CLASS-IDENTITY-COMPOSITION-ENGINE/README.md",
+      "tests": "TEST_FILES_PRESENT_NOT_EXECUTED_IN_THIS_BUILD",
+      "limitations": ["Callable entry point not confirmed in this pass.", "Qualification and external integration not established."]
+    },
+    {
+      "capability_id": "VIBE-DEVELOPMENT-FAMILY-001",
+      "name": "Mathematical, scientific, physics, and theorem-development specifications",
+      "system_id": "VIBE-DEVELOPMENT-FAMILY",
+      "status": "SPECIFIED_NOT_IMPLEMENTED",
+      "domains": ["mathematics", "science", "physics", "theorem_investigation"],
+      "invocation": null,
+      "source_path": "014-VIBE-DEVELOPMENT-ENGINES/VIBE-ENGINE-CAPABILITY-REGISTER-VER-001.md",
+      "tests": "NOT_MEASURED",
+      "limitations": ["Inspected register labels these engines proposed and not implemented."]
+    },
+    {
+      "capability_id": "OMNI-CDE-002-001",
+      "name": "Proof-carrying complexity discovery research architecture",
+      "system_id": "OMNI-CDE-002",
+      "status": "PROPOSED_NOT_IMPLEMENTED",
+      "domains": ["complexity_research", "SAT", "proof_checking", "P_vs_NP"],
+      "invocation": null,
+      "source_path": "016-OMNISOLVER-COMPLEXITY-DISCOVERY/OMNI-CDE-002-MASTER-ARCHITECTURE.md",
+      "tests": "NOT_MEASURED",
+      "limitations": ["Research architecture only; no P-versus-NP resolution claimed.", "Independent proof checking remains a required component."]
+    },
+    {
+      "capability_id": "KCN-GOVERNANCE-001",
+      "name": "KCN governance and permission enforcement",
+      "system_id": "KCN",
+      "status": "EXTERNAL_REPOSITORY_EVIDENCE_REQUIRED",
+      "domains": ["governance", "permissions", "policy"],
+      "invocation": null,
+      "source_path": null,
+      "tests": "NOT_MEASURED",
+      "limitations": ["KCN implementation not present in inspected Seed Bank tree; external source evidence required."]
+    },
+    {
+      "capability_id": "KCN-LINK-001",
+      "name": "Permission-aware inter-system bridge",
+      "system_id": "KCN-LINK-BRIDGE",
+      "status": "EXTERNAL_REPOSITORY_EVIDENCE_REQUIRED",
+      "domains": ["interoperability", "routing", "controlled_transfer"],
+      "invocation": null,
+      "source_path": null,
+      "tests": "NOT_MEASURED",
+      "limitations": ["No Bridge implementation identified in this Seed Bank snapshot."]
+    },
+    {
+      "capability_id": "DATA-LAYER-001",
+      "name": "Shared artifact, memory, and lineage data layer",
+      "system_id": "SHARED-DATA-LAYER",
+      "status": "EXTERNAL_REPOSITORY_EVIDENCE_REQUIRED",
+      "domains": ["storage", "provenance", "retrieval", "lineage"],
+      "invocation": null,
+      "source_path": null,
+      "tests": "NOT_MEASURED",
+      "limitations": ["No integrated shared Data Layer identified in this Seed Bank snapshot."]
+    },
+    {
+      "capability_id": "CENTRAL-CONTROLLER-001",
+      "name": "Federated task and workflow controller",
+      "system_id": "CENTRAL-CONTROLLER",
+      "status": "SPECIFIED_NOT_IMPLEMENTED",
+      "domains": ["orchestration", "capability_selection", "workflow"],
+      "invocation": null,
+      "source_path": "KHGSI-002-REFERENCE-ARCHITECTURE.md",
+      "tests": "NOT_MEASURED",
+      "limitations": ["This folder contains a planning-only reference kernel, not a live dispatcher."]
+    },
+    {
+      "capability_id": "UNIVERSAL-SOLVER-001",
+      "name": "Cross-domain problem-solving engine",
+      "system_id": "UNIVERSAL-SOLVER",
+      "status": "EXTERNAL_REPOSITORY_EVIDENCE_REQUIRED",
+      "domains": ["mathematics", "logic", "computation", "science"],
+      "invocation": null,
+      "source_path": null,
+      "tests": "NOT_MEASURED",
+      "limitations": ["Doctrine defines intended role; callable integrated implementation not verified in this Seed Bank pass."]
+    },
+    {
+      "capability_id": "PREFLIGHT-001",
+      "name": "Engineering, governance, and assurance preflight",
+      "system_id": "PREFLIGHT",
+      "status": "EXTERNAL_REPOSITORY_EVIDENCE_REQUIRED",
+      "domains": ["inspection", "testing", "assurance", "verification"],
+      "invocation": null,
+      "source_path": null,
+      "tests": "NOT_MEASURED",
+      "limitations": ["External implementation, interface, and test evidence required."]
+    },
+    {
+      "capability_id": "AHM-001",
+      "name": "Investigation and authorized healing workflow",
+      "system_id": "AHM",
+      "status": "EXTERNAL_REPOSITORY_EVIDENCE_REQUIRED",
+      "domains": ["investigation", "repair", "recovery"],
+      "invocation": null,
+      "source_path": null,
+      "tests": "NOT_MEASURED",
+      "limitations": ["External implementation, authorization boundary, and independent repair-verification evidence required."]
+    },
+    {
+      "capability_id": "RESEARCH-LAB-001",
+      "name": "Isolated scientific research laboratory",
+      "system_id": "SCIENTIFIC-RESEARCH-LAB",
+      "status": "EXTERNAL_REPOSITORY_EVIDENCE_REQUIRED",
+      "domains": ["scientific_research", "simulation", "reproducibility"],
+      "invocation": null,
+      "source_path": null,
+      "tests": "NOT_MEASURED",
+      "limitations": ["Research isolation and controlled transfer not verified in this Seed Bank pass."]
+    },
+    {
+      "capability_id": "CYBER-DEFENSE-001",
+      "name": "Individual, inter-system, and ecosystem defensive control plane",
+      "system_id": "CYBER-DEFENSE",
+      "status": "EXTERNAL_REPOSITORY_EVIDENCE_REQUIRED",
+      "domains": ["cybersecurity", "detection", "containment", "recovery"],
+      "invocation": null,
+      "source_path": null,
+      "tests": "NOT_MEASURED",
+      "limitations": ["No live defensive integration or production security qualification claimed."]
+    },
+    {
+      "capability_id": "MANIFEX-ENGINEERING-001",
+      "name": "Engineering intelligence and execution system",
+      "system_id": "MANIFEX",
+      "status": "EXTERNAL_REPOSITORY_EVIDENCE_REQUIRED",
+      "domains": ["engineering", "build", "execution"],
+      "invocation": null,
+      "source_path": null,
+      "tests": "NOT_MEASURED",
+      "limitations": ["Original MANIFEX remains protected; no source repository modified or integrated here."]
+    }
+  ]
+}
